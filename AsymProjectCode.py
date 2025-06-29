@@ -962,7 +962,7 @@ elif selection == "Insights and Analysis":
 
         st.plotly_chart(fig1, use_container_width=True)
         st.plotly_chart(fig2, use_container_width=True)
-    st.markdown("""
+        st.markdown("""
             Without policy implementation or the possibility of signaling, the basic market will fail over time. This conclusion is independant of the initial average quality, standard deviation, or number of sellers. The market will always fail to keep high quality sellers in the market.
             """)
     st.markdown("---")
