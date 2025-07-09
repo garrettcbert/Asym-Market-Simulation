@@ -353,7 +353,7 @@ elif selection == "Market Simulation":
         if 'std_quality' not in st.session_state:
             st.session_state.std_quality = 0.3
         if 'num_sellers' not in st.session_state:
-            st.session_state.num_sellers = 250
+            st.session_state.num_sellers = 100
         if 'num_rounds' not in st.session_state:
             st.session_state.num_rounds = 5
 
@@ -886,6 +886,8 @@ elif selection == "Full Data View":
                 yaxis_title="Average Quality",
                 height=500
             )
+
+            fig2.update_yaxes(range=[0, 1])
 
             st.plotly_chart(fig1, use_container_width=True)
             st.plotly_chart(fig2, use_container_width=True)
