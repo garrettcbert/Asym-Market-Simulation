@@ -329,21 +329,21 @@ elif selection == "Market Simulation":
         if 'apply_min_quality' not in st.session_state:
             st.session_state.apply_min_quality = False
         if 'min_quality' not in st.session_state:
-            st.session_state.min_quality = 0.5
+            st.session_state.min_quality = 0.3
         if 'subsidy' not in st.session_state:
             st.session_state.subsidy = False
         if 'subsidy_amount' not in st.session_state:
-            st.session_state.subsidy_amount = 100
+            st.session_state.subsidy_amount = 400
         if 'penalty' not in st.session_state:
             st.session_state.penalty = False
         if 'penalty_amount' not in st.session_state:
-            st.session_state.penalty_amount = 100
+            st.session_state.penalty_amount = 400
         if 'signaling' not in st.session_state:
             st.session_state.signaling = False
         if 'signaling_cost' not in st.session_state:
             st.session_state.signaling_cost = 50
         if 'signaling_bonus' not in st.session_state:
-            st.session_state.signaling_bonus = 100
+            st.session_state.signaling_bonus = 400
         if 'high_quality_threshold' not in st.session_state:
             st.session_state.high_quality_threshold = 0.7
         if 'low_quality_threshold' not in st.session_state:
@@ -351,9 +351,9 @@ elif selection == "Market Simulation":
         if 'avg_quality' not in st.session_state:
             st.session_state.avg_quality = 0.5
         if 'std_quality' not in st.session_state:
-            st.session_state.std_quality = 0.1
+            st.session_state.std_quality = 0.3
         if 'num_sellers' not in st.session_state:
-            st.session_state.num_sellers = 100
+            st.session_state.num_sellers = 250
         if 'num_rounds' not in st.session_state:
             st.session_state.num_rounds = 5
 
