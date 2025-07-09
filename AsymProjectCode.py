@@ -353,7 +353,7 @@ elif selection == "Market Simulation":
         if 'std_quality' not in st.session_state:
             st.session_state.std_quality = 0.3
         if 'num_sellers' not in st.session_state:
-            st.session_state.num_sellers = 100
+            st.session_state.num_sellers = 200
         if 'num_rounds' not in st.session_state:
             st.session_state.num_rounds = 5
 
